@@ -1,0 +1,48 @@
+html, body {
+  
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+}
+
+html {
+    height:  -webkit-fill-available;
+}
+
+body {
+    background: #121213;
+    color: #d8d8d8;
+
+    font-family: ui-sans-serif,  system-ui, -apple-system,  sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+header h1 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    letter-spacing: 0.35rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+header small {
+    color: lightgray;
+    font-size: .6rem;
+    font-weight: bold;
+}
+
+@media only screen and ( max-width: 620px ) {
+    header h1 {
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin-top: 2rem;
+        
+    }
+}
+    
