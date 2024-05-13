@@ -1,0 +1,51 @@
+.group:before,
+.group:after {
+	content: " ";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	*zoom: 1;
+}
+
+body {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ h1 {
+ 	text-align: center;
+ 	font-size: 25px;
+ }
+ img {
+ 	border-radius: 50%;
+ 	border: 3px solid lightgrey;
+ } 
+
+ h2 {
+ 	font-size: 22px;
+ }
+
+aside {
+	float: left;
+	width: 150px;
+}
+ main {
+ 	float: right;
+ 	width: 750px;
+ }
+ div {
+ 	margin-bottom: 250px;
+ }
+
+ .nadpis {
+ 	width: 600px;
+ 	position: relative;
+ 	margin-left: 200px;
+ 	bottom: 150px;
+ }

@@ -1,0 +1,35 @@
+body {
+color: #222;
+background-image: -webkit-linear-gradient(to bottom, #9723BA 0%, #3E8EDE 56%);
+background-image: linear-gradient(to bottom, #9723BA 0%, #3E8EDE 56%);
+} 
+
+
+button	{
+	border-radius: 4px;
+	padding: 10px 23px 10px 30px;
+	color: white;
+	border-bottom: 2px solid grey;
+	border: 1px solid white;
+
+}
+.green {
+	background: green;
+	margin-left: 45%;
+	background-image: linear-gradient(to bottom,#5CB85C 0%,#4CAE4C);
+
+}
+
+.red {
+	background: red;
+	background: url('icon.webp');
+	top: 50px;
+	padding: 50px;
+
+}
+.green:hover {
+	background: green;
+}
+.red:hover {
+	background: lightpink;
+}

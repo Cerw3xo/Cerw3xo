@@ -1,0 +1,316 @@
+body {
+	background: #D5EAF2;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	-webkit-font-smoothing:  antialiased;
+	color: #103778;
+}
+
+li	{
+	list-style: none;
+	display: inline;
+}
+
+header {
+	background: #103778;
+	color: white;
+	padding: 10px;
+	height: 70px;
+}
+.header {
+	float: left;
+	width: 450px;
+	position: relative;
+	top: -7px;
+	left: 120px;
+
+	
+}
+
+.header1 {
+	float: left;
+	width: 410px;
+	position: relative;
+	top: 7px;
+	margin-left: 485px;
+	top: 8px;
+}
+
+group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  *zoom: 1;
+}
+
+a.telefon,
+.email {
+	text-decoration: none;
+	color: white;
+	}
+
+.telefon:before {
+	content: "✆";
+	font-size: 35px;
+	margin-right: 20px;
+	top: 6px;
+	position: relative;
+}
+
+.email:before {
+ 	content: "✈";
+ 	font-size: 35px;
+ 	margin-right: 10px;
+ 	margin-left: 20px;
+ 	top: 6px;
+ 	position: relative;
+
+ }
+
+ .skype {
+ 	
+ }
+
+.header1 a {
+ 	background-image: url('sprite.png');
+ 	color: transparent;
+ 	padding: 12px 6px;
+ 	border: 1px solid white;
+ 	border-radius: 4px;
+ }
+.skype {
+	background-position: -3px -6px;
+}
+.twit {
+	background-position: -53px -6px;
+}
+.face {
+	background-position: -11px -57px;
+}
+.veo {
+	background-position: -61px -56px;
+}
+
+
+#section {
+	padding: 8px;
+	border-bottom: 1px solid black;
+}
+
+
+.section1 {
+	float: left;
+	width: 400px;
+	font-size: 33px;
+	font-variant: inherit;
+	margin-left: 160px;
+	position: relative;
+	top: 2px;
+}
+
+.section1:after {
+	content: "🔥";
+	font-size: 26px;
+	margin-left: 5px;
+}
+
+.section2 {
+	float: right;
+	width: 600px;
+}
+.section2 a {
+	text-decoration: none;
+	color: #151F30;
+	font-size: 20px;
+	margin: 10px;
+	position: relative;
+	top: 24px;
+}
+.dom {
+	border-left: 1px solid darkred;
+}
+
+.port {
+		border-left: 1px solid darkred;
+}
+
+.omne {
+		border-left: 1px solid darkred;
+}
+.kont {
+		border-left: 1px solid darkred;
+}
+.dom:before {
+	content: "♜";
+	position: relative;
+	bottom: 25px;
+	left: 40px;
+	font-size: 32px;
+	color: #151F30;
+}	
+.port:before {
+	content: "♚";
+	position: relative;
+	bottom: 25px;
+	left: 45px;
+	font-size: 32px;
+	color: #151F30;
+}
+.omne:before {
+	content: "❖";
+	position: relative;
+	bottom: 25px;
+	left: 42px;
+	font-size: 32px;
+	color: #151F30;
+}
+.kont:before {
+	content: "✌";
+	position: relative;
+	bottom: 25px;
+	left: 44px;
+	font-size: 32px;
+	color: #151F30;
+}
+main {
+	background-image: url("mapa.png");
+	height: 550Px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-position: 0px -119px;
+	display: block;
+}
+
+.main {
+	padding: 7px 35px 2px;
+	background-color: darkred;
+	position: relative;
+	left: 165px;
+	bottom: -63px;
+	color: #D5EAF2;
+	font-size: 34px;
+	font-variant: small-caps;
+	border: 1px solid darkred;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.h2 {
+	font-size: 35px;
+	margin-left: 150px;
+	font-weight: bold;
+}
+
+
+form {
+	float: left;
+	width: 840px;
+	text-align: left;
+	border: none;
+	
+}
+
+
+input,
+button,
+textarea {
+	border: none;
+	background: white;
+	width: 200px;
+	padding: 10px 20px;
+	box-shadow: 0 0 3px #103778;
+	margin: 20px auto;
+	}
+
+input {
+	margin-left: 6PX;
+	display: inline;
+	left: 100px;
+	position: relative;
+}
+
+textarea {
+	width: 499px;
+	height: 170px;
+	display: block;	
+	position: relative;
+	margin-bottom: 9px;
+
+}
+
+label {
+	position: relative;
+	top: -39px;
+	right: -156px;
+}
+
+label[for="message"] {
+	display: block;
+	position: relative;
+	top: 8px;
+	left: 156px;
+}
+
+ 
+
+aside {
+	float: left;
+	text-transform: inherit;
+	position: relative;
+	left: -90px;
+	line-height: 5px;
+}
+.butt {
+	background-color: darkred;
+	color: whitesmoke;
+	box-shadow: none;
+	border: 1px solid darkred;
+	border-radius: 4px;
+	margin-left: 150px;
+	margin-top: 15px;
+	width: 130px;
+	font-weight: bold;
+	padding: 7px 30px 2px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 28px 220px 0px 150px;
+}
+
+.foot1 {
+	text-decoration: none;
+	color: #103778;
+}
+
+.foot1:after {
+	content: "/";
+	padding: 2px;
+}
+.foot {
+	text-decoration: none;
+	color: #103778;
+}
+
+.night {
+	color: darkred;
+}
+
+ 
+em {
+ 	color: darkred;
+ 	font-variant: normal;
+ 	font-style: normal;
+ }
+.pat {
+	position: relative;
+	left: -128px;
+}

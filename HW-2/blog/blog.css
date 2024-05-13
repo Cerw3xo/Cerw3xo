@@ -1,0 +1,117 @@
+body {
+	background: lightgray;
+	background: rgb(255, 231, 231);
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+	margin: 0 auto;
+	-webkit-font-smoothing:  antialiased;
+
+}
+
+
+
+.hlava {
+	text-align: center;
+	background: whitesmoke;
+	width: 100%;
+	border-bottom: 1px solid black;
+	padding: 22px;
+	font-family: Gill Sans;
+	font-size: 20px;
+}
+
+aside {
+	float: right;
+	background: whitesmoke;
+}
+.main {
+	width: 750px;
+	float: left;
+
+}
+.main {
+	text-align: left;
+	background: whitesmoke;
+	margin: 50px 0px 30px 150px;
+	font-size: 18px;
+	line-height: 28px;
+	border-bottom: 1px solid grey;
+
+}
+.main h1,p,h2 {
+	padding: 14px;
+}
+.main p {
+	font-weight: lighter;
+}
+.main h1,h2 {
+	font-size: 35px;
+}
+
+.imgh {
+	width: 750px;
+}
+
+ 
+ .aside1 {
+ 	width: 350px;
+ 	height: 500px;
+ 	border-bottom: 1px solid grey;
+
+
+
+ }
+ .thumb1 {
+ 	width: 350px;
+ }
+ .aside2
+{
+	width: 350px;
+	height: 500px;
+	border-bottom: 1px solid grey;
+	margin-right: 150px;
+}
+.thumb2 {
+	width: 350px;
+}
+
+aside {
+	margin-right: 150Px;
+	margin-top: 50px;
+	font-size: 18px;
+}
+.aside1 h1,p,
+.aside2 h1,p {
+	padding: 14px;
+}
+
+.aside1,
+.aside2 p {
+	line-height: 28px;
+}
+
+a {
+	text-decoration: none;
+	background: black;
+	color: white;
+	padding: 10px;
+	margin: px;
+	text-align: center;
+	margin-left: 110px;
+	margin-right: auto;
+	border-radius: 5%;
+	font-family: Gill Sans;
+	font-weight: bold;
+	}
+
+	.italic {
+		font-style: italic;
+	}
+
+
+
+
+
+
+
+
+
