@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/images/happy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 15em;
+}
+svg {
+    transform: rotate(-91deg);
+    circle {
+        fill: none;
+        stroke-width: 1;
+         
+    }
+}
+.underlay {
+    stroke: #ddd
+}
+.progress {
+    color: #1da1f2;
+    stroke-width: 3;
+    transition: .2s stroke-width ease-in-out;
+}
+
+.tragedy {
+    stroke-width: 2;
+    animation: blink .4s ease-out;
+}
+
+/* colors */ 
+.safe {
+    color: #1df244;
+}
+
+.warm {
+    color: #ffad1f;
+}
+
+.danger {
+    color: #e0245e;
+}
+
+textarea {
+    border: 1px solid black;
+    border-radius: 4px;
+}
