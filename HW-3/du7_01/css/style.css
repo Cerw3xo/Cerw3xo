@@ -1,0 +1,107 @@
+/* general */
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+body {
+	padding: 25px;
+	background: #f7f6d3;
+}
+
+
+
+/* layout */
+.wrap {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+section {
+	color: #fff;
+	font: 16px/22px Rockwell, "Courier Bold", Courier, Georgia, serif;
+	background: #9F3FA3;
+	border-radius: 9px;
+	margin-bottom: 25px;
+
+	padding: 20px;
+	float: left;
+	width: 200px;
+	
+
+	min-height: 300px;
+}
+
+
+section:nth-child(1) { background: #3b9ae1; }
+section:nth-child(2) { background: #f6be00; }
+section:nth-child(3) { background: #e64134; }
+section:nth-child(4) { background: #eb70b1; }
+section:nth-child(5) { background: #0f1a5f; margin-right: 0; }
+
+
+
+/* clearfix */
+.group:before,
+.group:after {
+	content: " ";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+
+@media screen and ( max-width: 1100px ) {
+	section:nth-child(3) {
+		float: none;
+		width: 100%;
+		display: inline-block;
+	
+	}
+	section {
+		width: 49.7%;
+		margin-bottom: 9px;
+		min-height: 160px;
+}
+section:nth-child(1),
+section:nth-child(4) {
+	margin-right: 0.5%;
+}
+}
+@media screen and ( max-width: 700px ) {
+	section {
+		float: none;
+		width: auto;
+	}
+section:nth-child(1),
+section:nth-child(4) {
+	margin-right: 0%;
+}
+
+
+	body {
+		padding: 25px 60px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

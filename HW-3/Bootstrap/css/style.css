@@ -1,0 +1,66 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+section {
+    color: #fff;
+    font: 20px/1.375em Rockwell, "Courier Bold", Courier;
+    font-weight: bold;
+    background: #9F3FA3;
+    border-radius: .3em;
+    margin: .25em 0;
+    padding: .75em;
+    
+}
+section:nth-child(1) { background: #9F3FA3;}
+section:nth-child(2) { background: #4ee683;}
+section:nth-child(3) { background: #2d2dce;}
+
+
+.gule-1,
+.gule-2,
+.gule-3,
+.gule-4,
+.gule-5,
+.gule-6,
+.gule-7,
+.gule-8,
+.gule-9 {
+    float: left;
+}
+
+.gule-9 {
+    width: 100%;
+}
+.gule-8 {
+    width: 88.8888889%;
+}
+.gule-7 {
+    width: 77.7777778%;
+}
+.gule-6 {
+    width: 66.6666667%;
+}
+.gule-5 {
+    width: 55.5555556%;
+}
+.gule-4 {
+    width: 44.4444444%;
+}
+.gule-3 {
+    width: 33.3333333%;
+}
+.gule-2 {
+    width: 22.2222222%;
+}
+.gule-1 {
+    width: 11.1111111%;
+}
+
+.penis:before,
+.penis:after {
+    content: " "; display: table;
+}
+.penis:after {
+    clear: both;
+}
