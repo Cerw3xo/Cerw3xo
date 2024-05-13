@@ -1,0 +1,267 @@
+/* General */
+body {
+    color: #323232;
+    background: #eeefed ;
+    font-family: 'Source Sans Pro', sans-serif ;
+    -webkit-font-smoothing: antialiased;
+} 
+
+.container:before,
+.menu:before,
+.group:before,
+.container:after,
+.menu:after,
+.group:after {
+  content: " ";
+  display: table;
+}
+ 
+.container:after,
+.menu:after,
+.group:after {
+  clear: both;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-weight: 600;
+}
+.menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.fa {
+    vertical-align: middle;
+}
+
+.menu li {
+    float: left;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* CONTACT */
+.contact-bar,
+.personal a {
+    color: white;
+}
+
+.contact-bar {
+    background-color: #39a3d4;
+    height: 84px;
+    font-size: 16px;
+}
+
+ .personal {
+    float: left;
+    margin-top: 29px;
+ }
+
+ .social {
+    float: right;
+    margin-top: 18px;
+ }
+.personal li {
+    margin-right: 70px;
+}
+
+ .personal .fa {
+    font-size: 28px;
+    margin-right: 5px;
+ }
+   
+ .social .fab {
+    font-size: 17px;
+ }
+
+ .social-icon {
+    display: block;
+    width: 48px;
+    height: 48px;
+    line-height: 52px;
+
+    color: #989898;
+    background: #eeefed;
+    text-align: center;
+    
+    border-radius: 2px;
+    margin-left: 2px;
+ }
+  
+.social-icon:hover,
+.social-icon:focus {
+    color: #fff;
+    background: #5bd0ec;
+}
+
+/* NAVIGATION */
+.nav-bar {
+    color: #f2f2f2;
+}
+.logo {
+    float: left;
+}
+.logo {
+    display: block;
+    background: url(logo.png) ;
+    width: 186px;
+    height: 31px;
+    text-indent: -9999px;
+    margin-top: 40px;
+}
+.navigation {
+    float: right;
+}
+.navigation .fa{
+    display: block;
+    padding-bottom: 14px;
+    padding-top: 27px;
+}
+.navigation li {
+    border-left: 1px solid #cecece;
+}
+.navigation li:last-child {
+    border-right:  1px solid #cecece;
+}
+
+.navigation a {
+    display: block;
+    color: #a6a6a6;
+    width: 136px;
+    height: 120px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.selected a ,
+.navigation a:hover,
+.navigation a:focus {
+    color: #de5728;
+}
+/* ARTICLE */
+
+.text-center {
+    text-align: center;
+}
+.post-header {
+    background: url(cover.jpg)center -226px no-repeat;
+    height: 246px;
+}
+
+.post-title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    background: #de5728;
+    padding: 18px 46px;
+    border-radius: 7px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    margin-top: 36px;
+}
+.post-content h2 {
+    color: #323232;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+}
+.controls {
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+.controls a {
+    font-size: 25px;
+    font-weight: 300;
+    color: #39a3d4;
+    text-transform: uppercase;
+    padding: 0 8px;
+    line-height: 48px;
+    display: block;
+}
+.controls a:hover,
+.controls a:focus,
+.controls .selected a  {
+    background: #39a3d4;
+    color: white;
+    border-radius: 7px;
+}
+
+.gallery {
+    font-size: 0px ;
+}
+.post-content {
+    padding-bottom: 150px;
+}
+
+/* FOOTER */
+.pre-footer {
+    color: #fff;
+    background: #323232;
+    text-align: center;
+}
+.pre-footer .container {
+    width: 550px;
+    padding: 40px 0 60px;
+}
+.pre-footer p {
+    font-size: 19px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.pre-footer strong {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: none;
+}
+.pre-footer .personal li:first-child {
+    margin-left: 50px;
+    margin-right: 40px;
+}
+footer {
+    font-size: 14px;
+}
+footer p {
+    color: #a6a6a6;
+    float: left;
+    padding-left: 200px;
+}
+footer p a {
+    color: #e75652;
+    font-weight: 600;
+}
+footer .container {
+    background-image: url(logo.png);
+    background-repeat: no-repeat; 
+    background-position: left center;
+}
+footer p,
+footer .menu {
+    margin: 32px 0 32px 0;
+}
+footer .menu {
+    color: #989898;
+    font-weight: 600;
+    text-transform: uppercase;
+    float: right;
+}
+footer .menu a {
+    color: #989898;
+}
+footer li:after {
+    content: '/';
+    color: #989898 ;
+    margin: 0 8 px;
+}
+footer li:last-child:after {
+    content: '';
+}
