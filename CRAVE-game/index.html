@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRAVE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css ">   
+    <link rel="stylesheet" href="features.css "> 
+	<link rel="stylesheet" href="header.css"> 
+	<link rel="stylesheet" href="fun.css">
+	<link rel="stylesheet" href="foooter.css">
+</head>
+<body  id="crave">
+    <header>
+		<h1 class="crave-logo container">
+			<img src="images/logos/crave.png" alt="crave game logo">
+		</h1>
+	</header>
+
+	<nav class="main-nav">
+		 <ul class="menu container">
+			<li><a href="#crave">Crave</a></li>
+			<li><a href="#game">Game</a></li>
+			<li><a href="#about-us">About us</a></li>
+			<li><a href="#wishlist">
+				Wishlist now
+			<img class="steam" src="images/logos/steam.png" alt="whishlist crave on steam">
+			</a></li>
+		 </ul>
+	</nav>
+
+    <main>
+
+        <section id="game"  class="container">
+             <article  class="features">		
+							 <figure>
+                    <a href="images/screens/silksong5.png" target="_blank">
+                    <img src="images/screens/silksong5.png" alt="crave game screenshot" class="box rounded">
+                </a>
+               </figure>
+
+                <div class="content">
+                    <h2>Sniff</h2>
+                    <h3>Track down paling memories</h3>
+
+                    <p>Hunt down beasts and men alike.</p>
+
+                    <p>Pursue their scent trial to chart the layout of this gnarled kingdom.</p>
+
+                </div>
+            </article>
+
+            <article class="features">
+                <figure>
+                    <a href="images/screens/silksong3.png" target="_blank">
+                    <img src="images/screens/silksong3.png" alt="crave game screenshot" class="box rounded">
+                </a>
+                </figure>
+
+                <div class="content">
+                    <h2>Urinate</h2>
+                    <h3>Claim territories</h3>
+
+                    <p>Land devoid of it's crown lies cogged in ruin.
+                        There are many which crave to ascend and claim rulership.
+                    </p>
+
+                </div>
+            </article>
+
+            <article class="features">
+                <figure>
+                    <a href="images/screens/silksong4.png" target="_blank">
+                    <img src="images/screens/silksong4.png" alt="crave game screenshot" class="box rounded">
+                </a>
+                </figure>
+
+                <div class="content">
+                    <h2>Devour</h2>
+                    <h3>Draw out the ceaseless hunger</h3>
+
+                    <p>Devour your adversaries to expand your carnivor arsenal.</p>
+
+                </div>
+            </article>
+
+            <article id="wishlist" class="features wishlist">
+                <div class="content">
+                    <h3>Wish on <br>
+                    STEAM</h3>
+                    <iframe src="https://store.steampowered.com/widget/1826400/" frameborder="0" width="646"
+                    height="190"></iframe>
+                </div>
+            </article>
+
+
+        </section>
+
+    </main>
+
+    <footer id="about-us">
+		<div class="us container">
+
+		  <form action="" class="footer-item newslatter">
+			<h2>
+				Subscribe to <br>
+				the crave <br>
+				 mailing list.</h2>
+
+				 <input type="email" placeholder="email add  ress">
+				 <button type="submit">subscribe</button>
+		  </form>
+
+		  <div class="footer-item discord">
+			<h2>join <br>
+			our <br>
+			    discord </h2>
+
+				<a href="" class="button">
+					<img src="images/logos/discord.png" alt="discord logo">
+				</a>
+	 	 </div>
+
+		 <ul class="footer-item contact menu">
+			<li><a href="#">Pressskit</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Discord</a></li>
+			<li><a href="#">Twitter</a></li>
+		 </ul>
+
+		 <div class="footer-item logos">
+			<img src="images/logos/esrbt.png" class="esrb" alt="crave game logo esrbt">
+			<img src="images/logos/hang.png" class="hang" alt="crave game logo hang">
+			<img src="images/logos/fpusk.png" class="fpu" alt="crave game slovak art font pusk">
+		   </div>
+	    </div>
+	</footer>
+
+	
+	<script>
+		const headerEl = document.querySelector('header')
+		const logoEl = document.querySelector('.crave-logo img')
+ 
+		const setTranslate = (xPos, yPos, el) => {
+			el.style.transform = `translate3d(${xPos}, ${yPos}px, 0)`;
+		}
+
+		let xScrollPosition;
+		let yScrollPosition;
+
+		const scrollLoop = () => {
+			xScrollPosition = window.scrollX;
+			yScrollPosition = window.scrollY;
+
+			setTranslate(0, yScrollPosition * 0.75, headerEl);
+			setTranslate(0, yScrollPosition * -0.25, logoEl);
+
+			requestAnimationFrame(scrollLoop);
+		}
+
+		window.addEventListener('DOMContentLoaded', scrollLoop, false);
+
+
+	</script>
+
+</body>
+</html>

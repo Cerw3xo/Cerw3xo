@@ -1,0 +1,82 @@
+.footer-item {
+    padding: 4rem 0;
+}
+.us {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.esrb {
+    max-width: 4rem;
+}
+.hang {
+    position: relative;
+    top: 10px;
+}
+
+.fpu {
+    max-width: 8rem;
+    position: relative;
+    top: 2px;
+}
+.contact a {
+    text-decoration: underline;
+}
+
+.newslatter h2,
+.discord h2 {
+    margin-bottom: 0.35rem;
+}
+
+.newslatter input,
+.newslatter button {
+    border: none;
+    background: white;
+    min-height: 2.3em;
+    padding: 0.2rem 1rem 0 1rem;
+}
+.newslatter input {
+    width: clamp(8rem, 20vw, 16rem);
+}
+
+.newslatter button {
+    margin-left: 0.5rem;
+    background-color: var(--cl-button);
+}
+
+.discord a {
+    display: inline-block;
+    width: 15rem;
+    padding: 0.65rem 1rem;
+
+    background-color: var(--cl-button);
+    text-align: center;
+}
+.discord img {
+    width: 7rem;
+    vertical-align: middle;
+    position: relative;
+    top: 2px;
+}
+
+
+@media screen and ( min-width: 810px ) {
+    .us{
+    display: grid;
+    text-align: start;
+    grid-template-columns: 2fr 1fr;
+    }
+.footer-item {
+    padding: 8rem 0;
+}
+
+.logos {
+    grid-column: 1;
+    grid-row: 2;
+}
+.logos, .contact {
+    padding-bottom: 2rem;
+    align-self: end;
+}
+
+}
