@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+}
+.group:after {clear: both;}
+
+html, body {
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.intro {
+    width: 100%;
+    height: 30em;
+   
+
+    background: url('truba.jpg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article {
+    max-width: 900px;
+    margin: 0 auto;   
+    font-size: 1.4em;
+    line-height: 1.6em;
+    padding: 1.2em;
+
+}

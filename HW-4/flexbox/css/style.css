@@ -1,0 +1,43 @@
+/* general */
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font: 20px Rockwell, "Courier Bold", Georgia, serif;
+	font-weight: bold;
+	background: #f7f6d3;
+	padding: 1em;
+}
+
+body,
+a {
+	color: #fff;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+header, nav, article, aside, footer {
+	padding: 1.2em;
+	border-radius: .5em;
+	margin: 5px;
+}
+
+header  { background: #3b9ae1; }
+nav     { background: #f6be00; }
+article { background: #e64134; }
+aside   { background: #eb70b1; }
+footer  { background: #0f1a5f; }
+
+

@@ -1,0 +1,77 @@
+/* General */
+html {
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    color: #2f2f2f;
+    font: 0.9em/1.35em 'Avant Garde', 'Century Gothic', sans-serif;
+    padding: 2.4em;
+}
+p {
+    margin: 0px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* clearfix */
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+/* media queries */
+
+@media ( max-width: 650px ) {
+
+    /* layout */
+    article {
+        text-align: center;
+        padding: 2em 0;
+        border-bottom: 1px solid lightgray;
+    }
+    article:last-child {
+        border-bottom: none;
+    }
+}
+@media ( min-width: 651px ) {
+    article {
+        padding: 1em 0;
+    }
+}
+@media ( min-width: 651px ) and ( max-width: 1150px ) {
+    .image,
+    .text {
+        float: left ;
+    }
+    .image {
+        width: 40%;
+    }
+    .text {
+        width: 60%;
+        padding-left: 2em ;
+    }
+}
+
+@media ( min-width: 1151px ) {
+    .container {
+        width: 1000px;
+        height: auto;
+        margin: 0 auto;
+    }
+    article {
+        width: 300px;
+        float: left;
+        margin: 0 5px;
+    }
+    .text {
+        text-align: left;
+    }
+    
+}
