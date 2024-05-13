@@ -1,0 +1,35 @@
+body {
+	background: #CD853F;
+	text-align: center;
+	padding: 20px 15px;
+	font-size: 23px;
+	-webkit-font-smoothing:  antialiased;
+	margin-left: 500px auto;
+	margin-right: 500px auto;
+	}
+h1 {
+	font-family: fantasy;
+	color: red;
+    }
+li {
+	color: whitesmoke;
+}
+a {
+	border-radius: 5px;
+}
+.a {
+	color: white;
+    }
+ .b {
+ 	color: green;
+ } 
+.pismo {
+	color: ghostwhite;
+     }
+.zoznam {
+	padding: 20px;
+	text-align: center;
+}
+.obrazok {
+	border-radius: 4px;
+}

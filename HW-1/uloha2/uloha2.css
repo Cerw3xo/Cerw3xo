@@ -1,0 +1,49 @@
+body,
+html {
+	margin: 0px;
+}
+body {
+	background: #5322D3;
+	text-align: center;
+	font-size:  15px;
+	padding: 55px 70px;
+	color: #DEEFE7;
+	font-family: Copperplate, Copperplate Gothic Light;
+	-webkit-font-smoothing:  antialiased;
+	margin: 20px ;
+	line-height: 50px;
+}
+h1 {
+	color: #9698E7;
+	font-size: 40px;
+}
+img {
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+	border: 4px solid white;
+}
+p {
+	text-align: left;
+	line-height: 23px;
+	margin: 20px center;
+}
+h2 {
+	text-align: left;
+	color: #DB2F45;
+	border-bottom: 1px solid white;}
+.podnadpis {
+	text-align: center;
+	font-size: 25px;
+	color: #F40073;
+}
+a {
+	border: 1px solid white;
+	text-decoration: none;
+	color: #F1F5F0;
+	font-family: Copperplate, Copperplate Gothic Light;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 4px;
+	font-weight: revert-layer;
+}

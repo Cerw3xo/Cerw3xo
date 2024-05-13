@@ -1,0 +1,31 @@
+body,
+html {
+	margin: 0;
+}
+ body {
+ 	color: #038C8C;
+	font-family:Futura, "Trebuchet MS", Arial, sans-serif;
+	padding: 0 50px;
+	background: #593954;
+	-webkit-font-smoothing: antialiased;
+}
+p {
+	font-size:  15px;
+	line-height: 40px;
+	font-weight: normal;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	text-indent:  200px;
+	word-spacing: 3px;
+	text-align: center;
+}
+strong {
+	color: #EC62FA;
+	font-style: oblique;
+	text-decoration: underline;
+	letter-spacing: 15px;
+	text-shadow: 2px 2px 3px black, 2px 3px 4px white ;
+ }
+strong:hover {
+	color: hotpink;
+}
