@@ -1,0 +1,67 @@
+header {
+    min-height: 50vh;
+    background-image: url( images/crave_key_art_fade.jpg);
+    background-repeat: no-repeat;
+    background-position: 45% 50%;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    background: linear-gradient( to right, rgba(21, 8, 28, 0.096), rgb(11, 1, 1));
+}
+
+.main-nav {
+    width: 100vw;
+
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+
+    background: rgba(0, 0, 0, 0.5);
+  
+}
+
+.main-nav .menu {
+    font-size: clamp(1.15rem, 6vw, 2.55rem);
+    line-height: 1;
+
+    display: flex;
+    gap: clamp(1.35rem, 5vw, 2.75rem);
+}
+
+.main-nav a {
+    display: block;
+    padding-top: 0.7rem;
+    padding-bottom: .35rem;
+}
+.main-nav li:last-of-type {
+    margin-left: auto;
+}
+
+.main-nav li {
+    display: flex;
+    align-items: center;
+}
+.steam {
+    width: 3em;
+    padding-left: .3em;
+    vertical-align: middle;
+    display: none;
+}
+
+@media screen and ( min-width: 810px ) {
+    .steam {
+        display: inline-block;
+    }
+    .crave-logo {
+        flex: 100%;
+        position: relative;
+        left: -68px;
+    }
+}
+
+@media screen and ( min-width: 420px ) {
+    header {
+        background-position: 50% 50%; 
+    }
+}
